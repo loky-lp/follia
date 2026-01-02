@@ -21,7 +21,7 @@ const config = {
 		'prettier-plugin-svelte',
 		'prettier-plugin-tailwindcss',
 	],
-	tailwindConfig: fileURLToPath(new URL('./tailwind.config.ts', import.meta.url)),
+	// tailwindConfig: fileURLToPath(new URL('./tailwind.config.ts', import.meta.url)),
 	tailwindFunctions: ['cn', 'cva'],
 	importOrder: [
 		'<TYPES>',
