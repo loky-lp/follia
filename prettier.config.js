@@ -1,5 +1,3 @@
-import { fileURLToPath } from 'node:url'
-
 /** @typedef {import('prettier').Config} PrettierConfig */
 /** @typedef {import('prettier-plugin-svelte').PluginConfig} SvelteConfig */
 /** @typedef {import('prettier-plugin-tailwindcss').PluginOptions} TailwindConfig */
@@ -21,7 +19,7 @@ const config = {
 		'prettier-plugin-svelte',
 		'prettier-plugin-tailwindcss',
 	],
-	// tailwindConfig: fileURLToPath(new URL('./tailwind.config.ts', import.meta.url)),
+	tailwindStylesheet: './src/routes/layout.css',
 	tailwindFunctions: ['cn', 'cva'],
 	importOrder: [
 		'<TYPES>',

@@ -88,7 +88,7 @@
 	<p>Così bravo che confondo me stesso.</p>
 </article>
 
-<div class="border-t bg-neutral-100">
+<div class="border-t border-gray-200 bg-neutral-100">
 	<div class={`${size} text-muted px-4 py-1 text-center text-xs`}>
 		Copyright © {new Date().toISOString().split('-')[0]} - All right reserved.
 	</div>

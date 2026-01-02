@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import '../app.css'
+	import './layout.css'
 	import '@fontsource-variable/quicksand'
 
 	let { children } = $props()

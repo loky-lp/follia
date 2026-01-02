@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@layer base {
+	body {
+		font-family: 'Quicksand Variable', sans-serif;
+	}
+}
